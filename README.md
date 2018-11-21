@@ -48,3 +48,11 @@ dependencies {
         GLog.log.x(tag,xml);
         
 ```
+
+## 混淆
+
+```
+# dom4j
+-dontwarn org.dom4j.**
+-keep class org.dom4j.** { *; }
+```
